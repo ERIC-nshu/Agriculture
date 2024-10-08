@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.about-us .image-left, .about-us .image-right {
+    flex: 1;
+}
+
+.about-us .text {
+    flex: 2;
+    padding: 0 2rem;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card {
+    flex: 1 1 calc(25% - 1rem);
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer .footer-logo {
+    font-size: 1.2rem;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .map img {
+    width: 100px;
+    height: auto;
+}

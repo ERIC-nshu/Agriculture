@@ -1,0 +1,5 @@
+// Function to get the current day of the week
+function getDayOfWeek() {
+    const today = new Date();
+    const dayIndex = today.getDay(); 
+    let de;ayNam

@@ -1,0 +1,10 @@
+.a input,select,label
+{
+    background: lightgreen ;
+color: blue;}
+.a{
+    background-color: aqua;
+}
+.b input{
+    margin-right: 5%;
+}
